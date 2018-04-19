@@ -10,7 +10,7 @@ class Product
   public $cpu;
   public $numPages;
 
-  public function __conctruct($name, $price, $cpu, $numPages)
+  public function __construct($name, $price, $cpu, $numPages)
   {
     $this->name = $name;
     $this->price = $price;
